@@ -1,0 +1,142 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html {
+    font-family: var(--font-jakarta), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color-scheme: light;
+    overflow-x: clip;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+
+  body {
+    overflow-x: clip;
+    transition: background-color 0.5s ease, color 0.4s ease;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font-family: inherit;
+    touch-action: manipulation;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes starfallDrift {
+  0%, 100% {
+    opacity: 0.16;
+    transform: translate3d(0, 0, 0) scale(0.8) rotate(0deg);
+  }
+  50% {
+    opacity: 0.78;
+    transform: translate3d(var(--drift-x, 18px), var(--drift-y, 95px), 0) scale(1.06) rotate(90deg);
+  }
+}
+
+@keyframes starfallShoot {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 0, 0) scale(0.65);
+  }
+  8% {
+    opacity: 0.85;
+    transform: translate3d(calc(var(--shoot-x, 120px) * 0.45), calc(var(--shoot-y, 85px) * 0.45), 0) scale(1);
+  }
+  20% {
+    opacity: 0;
+    transform: translate3d(var(--shoot-x, 120px), var(--shoot-y, 85px), 0) scale(0.7);
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(var(--shoot-x, 120px), var(--shoot-y, 85px), 0) scale(0.7);
+  }
+}
+
+@keyframes sunbeamSway {
+  0%, 100% {
+    opacity: 0.36;
+    transform: translate3d(0, 0, 0) rotate(var(--beam-rot, -24deg)) scaleY(1);
+  }
+  50% {
+    opacity: 0.68;
+    transform: translate3d(16px, 8px, 0) rotate(var(--beam-rot, -24deg)) scaleY(1.04);
+  }
+}
+
+@keyframes sunMoteFloat {
+  0%, 100% {
+    opacity: 0.14;
+    transform: translate3d(0, 0, 0) scale(0.85);
+  }
+  50% {
+    opacity: 0.65;
+    transform: translate3d(var(--mote-x, 22px), var(--mote-y, -48px), 0) scale(1.1);
+  }
+}
+
+@keyframes rainFallSlow {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -14vh, 0) rotate(11deg);
+  }
+  12% {
+    opacity: var(--rain-opacity, 0.38);
+  }
+  85% {
+    opacity: var(--rain-opacity, 0.38);
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(-44px, 114vh, 0) rotate(11deg);
+  }
+}
+
+.starfall-anim {
+  will-change: transform, opacity;
+}
+
+html.starfall-paused .starfall-anim {
+  animation-play-state: paused !important;
+}
+
+html.smooth-mode .starfall-layer {
+  display: none !important;
+}
+
+html.smooth-mode .starfall-anim {
+  animation: none !important;
+}
+
+html.smooth-mode * {
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+html.smooth-mode,
+html.smooth-mode * {
+  scroll-behavior: auto !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .starfall-anim {
+    animation: none !important;
+  }
+}
+
+

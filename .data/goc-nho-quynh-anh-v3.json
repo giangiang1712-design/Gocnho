@@ -1,0 +1,150 @@
+{
+  "photos": [
+    {
+      "id": "seed-photo-1",
+      "imageUrl": "/src/assets/images/polaroid_blossom_stroll_1794299715968.jpg",
+      "caption": "Giữa một chiều ngập nắng, thần thái dịu dàng này làm người đối diện cũng thấy bình yên lây.",
+      "story": "Có những khoảnh khắc nhìn rất đỗi tự nhiên nhưng lại có sức hút kỳ lạ. Nắng chiều hôm ấy rất đẹp, nhưng chính năng lượng nhẹ nhàng, trong trẻo của cậu mới là điều làm tớ thấy bức ảnh này đáng nhớ nhất.",
+      "date": "14.03.2026",
+      "emotionTag": "#NụCườiToảNắng",
+      "likes": 28,
+      "isLiked": true,
+      "rotation": -1.5,
+      "featured": true,
+      "createdAt": 1794299715000
+    },
+    {
+      "id": "seed-photo-2",
+      "imageUrl": "/src/assets/images/polaroid_sunlit_cafe_1794299714748.jpg",
+      "caption": "Một ly matcha dâu tây ở góc quán nhỏ cho những ngày Quỳnh Anh cần khoảng lặng.",
+      "story": "Ai rồi cũng có những ngày lịch trình dày đặc và chỉ muốn tìm một góc bàn gỗ có nắng chiếu qua để thở phào một nhịp. Tớ mong rằng mỗi khi ghé vào đây, cậu cũng tìm thấy cảm giác thư thái hệt như buổi chiều ở quán nhỏ này.",
+      "date": "22.04.2026",
+      "emotionTag": "#NgàyDịuDàng",
+      "likes": 19,
+      "isLiked": false,
+      "rotation": 1.2,
+      "createdAt": 1794299714000
+    },
+    {
+      "id": "seed-photo-3",
+      "imageUrl": "/src/assets/images/polaroid_pastel_sunset_1794299716406.jpg",
+      "caption": "Bầu trời hoàng hôn màu hồng phấn — dịu mắt hệt như cách Quỳnh Anh cười vậy.",
+      "story": "Người ta hay bảo hoàng hôn là phần thưởng dịu dàng nhất sau một ngày dài. Tớ lưu lại sắc trời êm ả này ở đây để bất cứ khi nào cậu thấy ngày hôm nay hơi vội vã, cứ nhìn lên mây trời và thả lỏng một chút nhé.",
+      "date": "09.06.2026",
+      "emotionTag": "#GócBìnhYên",
+      "likes": 34,
+      "isLiked": true,
+      "rotation": -1.1,
+      "createdAt": 1794299713000
+    },
+    {
+      "id": "seed-photo-4",
+      "imageUrl": "/src/assets/images/polaroid_cozy_reading_1794299718942.jpg",
+      "caption": "Một tách trà ấm, vài trang sách hay và một buổi chiều không vướng bận.",
+      "story": "Những ngày cuối tuần chẳng cần đi đâu xa, chỉ cần ngồi cạnh khung cửa sổ sáng, nghe một giai điệu nhẹ nhàng và tận hưởng thế giới riêng của mình. Cậu cứ thoải mái là chính mình nhé, mọi ồn ào ngoài kia cứ để lại sau cánh cửa.",
+      "date": "18.08.2026",
+      "emotionTag": "#TrongTrẻo",
+      "likes": 24,
+      "isLiked": false,
+      "rotation": 1.4,
+      "createdAt": 1794299712000
+    },
+    {
+      "id": "seed-photo-5",
+      "imageUrl": "/src/assets/images/polaroid_pink_tulips_1794299719332.jpg",
+      "caption": "Bó tulip hồng phấn gửi vào góc nhỏ để ngày của Quỳnh Anh luôn tươi tắn.",
+      "story": "Hoa tulip hồng mang ý nghĩa của sự trân trọng và lời chúc tốt lành giản đơn. Hy vọng mỗi lần lướt qua bức hình này, cậu sẽ bất giác mỉm cười vì luôn có tớ âm thầm cổ vũ cho những điều tốt đẹp đến với cậu.",
+      "date": "02.10.2026",
+      "emotionTag": "#KhoảnhKhắcĐẹp",
+      "likes": 41,
+      "isLiked": true,
+      "rotation": -0.9,
+      "createdAt": 1794299711000
+    },
+    {
+      "id": "seed-photo-6",
+      "imageUrl": "/src/assets/images/polaroid_evening_glow_1794299725863.jpg",
+      "caption": "Ánh đèn vàng ấm áp sau cơn mưa chiều — như một trạm dừng chân luôn mở cửa.",
+      "story": "Nếu có hôm nào tan học hay tan làm muộn mà lòng thấy hơi chùng xuống, đừng quên góc nhỏ này vẫn luôn sáng đèn. Ghé xuống Trạm Lắng Nghe bên dưới và kể vài chuyện vụn vặt trong ngày với tớ cho nhẹ lòng nhé Quỳnh Anh.",
+      "date": "05.11.2026",
+      "emotionTag": "#GócBìnhYên",
+      "likes": 31,
+      "isLiked": false,
+      "rotation": 1.1,
+      "createdAt": 1794299710000
+    }
+  ],
+  "moodJars": [
+    {
+      "id": "jar-happy",
+      "moodKey": "happy",
+      "title": "Hũ Niềm Vui",
+      "subtitle": "Khi cậu đang có chuyện vui",
+      "accentHex": "#FF8FA3",
+      "bgHex": "#FFF0F3",
+      "messages": [
+        "Nụ cười của Quỳnh Anh có sức lan tỏa rất tích cực đấy. Hôm nay có chuyện gì thú vị nhớ ghé xuống Trạm Lắng Nghe kể cho tớ nghe với nhé!",
+        "Giữ trọn nguồn năng lượng rạng rỡ này nhé cậu. Nhìn một người luôn giữ được nét tươi tắn như Quỳnh Anh thật sự làm tớ thấy rất vui lây.",
+        "Thêm một ngày vui vẻ được cất vào sổ lưu niệm. Tớ chúc cho những ngày sắp tới của cậu cũng luôn ngập tràn những điều nhỏ xinh như hôm nay."
+      ]
+    },
+    {
+      "id": "jar-tired",
+      "moodKey": "tired",
+      "title": "Hũ Nghỉ Ngơi",
+      "subtitle": "Khi hôm nay hơi dài và thấm mệt",
+      "accentHex": "#E5989B",
+      "bgHex": "#FDECEF",
+      "messages": [
+        "Hôm nay cậu đã vất vả nhiều rồi. Tạm gác công việc sang một bên, uống một ngụm nước ấm và cho phép bản thân nghỉ ngơi sớm hơn mọi ngày một chút nhé.",
+        "Chẳng sao cả nếu hôm nay mình đi chậm lại một nhịp đâu Quỳnh Anh. Nghe một bản nhạc êm dịu rồi chợp mắt một lát cho lại sức nhé.",
+        "Mệt thì cứ than một câu với tớ ở Trạm Lắng Nghe bên dưới nhé, cậu không cần lúc nào cũng phải tự gồng mình một mình đâu."
+      ]
+    },
+    {
+      "id": "jar-stressed",
+      "moodKey": "stressed",
+      "title": "Hũ Bình Tĩnh",
+      "subtitle": "Khi nhiều việc ngổn ngang trong đầu",
+      "accentHex": "#D88C9A",
+      "bgHex": "#FCE8ED",
+      "messages": [
+        "Mọi việc rồi sẽ tháo gỡ được từng chút một thôi Quỳnh Anh ạ. Hít một hơi thật sâu nào, sự chỉn chu và cố gắng của cậu vốn đã rất đáng nể trong mắt tớ rồi.",
+        "Đừng tự tạo áp lực phải hoàn hảo trong mọi chuyện nhé. Cứ làm hết sức theo nhịp độ của riêng cậu là tuyệt vời nhất rồi.",
+        "Những chuyện làm mình đau đầu hôm nay, vài tuần nữa nhìn lại sẽ chỉ là chuyện nhỏ xíu thôi. Bình tĩnh và tin vào bản thân nhé, tớ luôn ủng hộ cậu!"
+      ]
+    },
+    {
+      "id": "jar-missing",
+      "moodKey": "missing",
+      "title": "Hũ Nạp Năng Lượng",
+      "subtitle": "Khi lòng chợt thấy chùng xuống",
+      "accentHex": "#FF758F",
+      "bgHex": "#FFE5EC",
+      "messages": [
+        "Góc nhỏ này tớ tạo ra là để những lúc thấy trống trải hay lười nói chuyện với thế giới ngoài kia, cậu vẫn có một nơi thật sự thoải mái để ghé về.",
+        "Nếu hôm nay tâm trạng hơi lưng chừng, tự thưởng cho mình một món đồ uống ngọt dịu hoặc một buổi đi dạo hóng gió xem sao nhé Quỳnh Anh.",
+        "Dù hôm nay thời tiết hay mọi thứ xung quanh có hơi ảm đạm, hãy nhớ rằng luôn có tớ ở đây trân trọng sự hiện diện dịu dàng của cậu."
+      ]
+    }
+  ],
+  "wishes": [
+    {
+      "id": "wish-init-1",
+      "title": "Một ly trà sữa ngọt dịu",
+      "note": "Chiều nay trời mát mẻ, tự nhiên muốn uống một ly trà sữa ít ngọt.",
+      "createdAt": "Hôm qua · 16:20",
+      "timestamp": 1794213300000,
+      "fulfilledByThanh": true,
+      "thanhReply": "Đã ghi nhận tín hiệu nhỏ này của Quỳnh Anh!"
+    }
+  ],
+  "settings": {
+    "herNickname": "Quỳnh Anh",
+    "senderAlias": "X",
+    "welcomeNote": "Chào mừng Quỳnh Anh ghé thăm Góc Nhỏ Chữa Lành. Ngoài kia nếu có những lúc bận rộn hay mệt mỏi, cậu cứ thong thả dạo xem những bức hình thật xinh và trò chuyện cùng tớ ở Trạm Lắng Nghe bên dưới nhé.",
+    "anniversaryDate": "2026-11-10",
+    "secretHeaderNote": "Một không gian nhỏ bình yên tớ dành tặng riêng cho Quỳnh Anh"
+  },
+  "updatedAt": 1794308142412
+}

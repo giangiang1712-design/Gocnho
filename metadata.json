@@ -1,0 +1,6 @@
+{
+  "name": "Góc Nhỏ Chữa Lành",
+  "description": "Không gian sổ lưu niệm Polaroid ấm áp và Trạm Lắng Nghe dành tặng riêng cho Quỳnh Anh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
